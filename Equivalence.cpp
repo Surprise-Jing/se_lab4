@@ -6,7 +6,7 @@
 #include <string.h>
 using namespace std;
 
-#include "CreateInput.h"
+//#include "CreateInput.h"
 #include "Equivalence.h"
 
 void GetFolder(string path,vector<string>& folder)
