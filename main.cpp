@@ -9,4 +9,5 @@ using namespace std;
 int main()
 {
     CreateRandomInput("input");
+    //output module
 }
