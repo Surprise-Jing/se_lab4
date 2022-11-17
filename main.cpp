@@ -4,18 +4,12 @@
 using namespace std;
 
 #include "CreateInput.h"
-<<<<<<< HEAD
-=======
 #include "Equivalence.h"
->>>>>>> output
+
 
 
 int main()
 {
-<<<<<<< HEAD
-    CreateRandomInput("input");
-    //output module
-=======
     system("mkdir output");
     vector<string> input_folder;
     GetFolder("input", input_folder);
@@ -25,5 +19,4 @@ int main()
     }
     system("rm -f *.txt");
     system("rm -f a.out");
->>>>>>> output
 }

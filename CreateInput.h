@@ -9,4 +9,3 @@ struct input_format
 };
 
 void CreateRandomInput(string dir_path);
-

@@ -1,4 +1,4 @@
-OBJS=Equivalence.o main.o 
+OBJS=CreateInput.o Equivalence.o main.o 
 cc=g++ -std=c++11
 CFLAGS+=-c -Wall -g
 

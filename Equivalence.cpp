@@ -6,7 +6,7 @@
 #include <string.h>
 using namespace std;
 
-//#include "CreateInput.h"
+#include "CreateInput.h"
 #include "Equivalence.h"
 
 void GetFolder(string path,vector<string>& folder)
@@ -97,7 +97,7 @@ bool CompareOutputFile()
     return flag;
 }
 
-bool CompareFiles(string file1, string file2, string path)
+bool CompareFiles(string file1, string file2, string path) //判断两文件是否等价
 {
     ifstream infile;
     infile.open(path+"/random_input.txt", ios::in);
